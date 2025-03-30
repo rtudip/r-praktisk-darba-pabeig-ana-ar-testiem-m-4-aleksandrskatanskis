@@ -1,0 +1,96 @@
+
+Data loaded successfully.
+First few rows of the dataset:
+                      Intercept      Slope   ICerror    SLerror   r.squared
+R2.g1.p1.u3.y1        2,0461152 0,10203017 0,8575638 0,15624383 -0,36033099
+B1.R2.b1.g1.p1.u3.y1 2,50758083 1,06012244 0,8991416 0,41049166 -0,42999018
+B2.R2.b2.g1.p1.u3.y1 1,15557684 0,10470874 0,5898129 0,10981091  -0,1580625
+B4.R2.b5.g1.p1.u3.y1 0,35474723 0,05858238 0,7778706 0,11105698  -0,2079835
+B5.R2.b6.g1.p1.u3.y1 0,86973764 0,01762278 0,7130973 0,11792422  -0,2032789
+R2.f1.g1.p1.u3.y1    1,97911709 0,06734541 0,7786938 0,16339641 -0,30809032
+                     adj.r.squared       RMSD       MAD  b  f
+R2.g1.p1.u3.y1         -0,37929578 -1,9158357 2,0402197 b0 f0
+B1.R2.b1.g1.p1.u3.y1   -0,45262125 -2,0928433 4,5078366 b1 f0
+B2.R2.b2.g1.p1.u3.y1   -0,16638158 -1,2688839 1,8450668 b2 f0
+B4.R2.b5.g1.p1.u3.y1      -0,21893 -1,4555324 1,0228945 b5 f0
+B5.R2.b6.g1.p1.u3.y1   -0,21397779 -1,4389762 1,2704794 b6 f0
+R2.f1.g1.p1.u3.y1       -0,3243056 -1,7715217  2,369898 b0 f1
+Column names:
+Intercept, Slope, ICerror, SLerror, r.squared, adj.r.squared, RMSD, MAD, b, f
+Columns 9 and onward converted to factors.
+Column Slope converted to numeric.
+Column Intercept converted to numeric.
+Column adj.r.squared converted to numeric.
+Summary of numeric columns after conversion:
+     Slope           Intercept       adj.r.squared     
+ Min.   :0.01301   Min.   :0.07717   Min.   :-0.98824  
+ 1st Qu.:0.15480   1st Qu.:0.86038   1st Qu.:-0.44861  
+ Median :0.44812   Median :1.97912   Median :-0.36102  
+ Mean   :0.76838   Mean   :1.97444   Mean   :-0.37391  
+ 3rd Qu.:0.98482   3rd Qu.:2.47785   3rd Qu.:-0.17033  
+ Max.   :8.14507   Max.   :6.12355   Max.   :-0.09398  
+Rows with missing values in numeric columns removed.
+Factor Levels Summary:
+$b
+
+b0 b1 b2 b5 b6 
+15 15 15 15 15 
+
+$f
+
+ f0  f1 f10 f15 f16 f17 f18  f2  f3  f4  f5  f6  f7  f8  f9 
+  5   5   5   5   5   5   5   5   5   5   5   5   5   5   5 
+
+Slope values split by 'b' factor levels:
+$b0
+ [1] 0.10203017 0.06734541 0.49448930 1.02289926 0.49639652 0.63454695
+ [7] 0.63367252 0.14079610 0.42142787 0.27363844 0.04861124 0.01300787
+[13] 0.31527511 0.37846405 0.03143296
+
+$b1
+ [1] 1.0601224 1.2746117 0.5828313 0.9487484 1.6872358 1.3243503 1.3285250
+ [8] 1.4246606 1.8189263 0.8627043 1.1590306 1.2231314 1.7007093 2.1926947
+[15] 1.2114063
+
+$b2
+ [1] 0.1047087 6.6789067 8.1450661 0.0794657 0.9869675 1.2303902 1.2329687
+ [8] 0.3485520 0.5666497 1.1277833 0.2070096 0.2303440 0.5021960 0.5193119
+[15] 0.2297357
+
+$b5
+ [1] 0.05858238 0.09616663 0.41441006 0.62612690 0.55750261 0.89550688
+ [7] 0.89693570 0.16185457 0.37065012 0.19745375 0.02208518 0.04422372
+[13] 0.30635066 0.29023481 0.06439376
+
+$b6
+ [1] 0.01762278 0.14773928 0.34958940 0.64886110 0.55313166 0.98265228
+ [7] 0.98268285 0.21905666 0.44811681 0.12903029 0.06941589 0.08995046
+[13] 0.37375837 0.43347688 0.11747249
+
+Column 'Average' created successfully.
+Standard Deviation by 'f' factor levels:
+     f     Slope Intercept adj.r.squared
+1   f0 0.4439061 0.8770400    0.12294369
+2   f1 2.8551163 2.1407161    0.26271450
+3  f10 3.4378293 1.9274194    0.28327643
+4  f15 0.3718961 0.4773266    0.09305196
+5  f16 0.5045418 0.7749473    0.10172166
+6  f17 0.2748403 1.1620861    0.20921915
+7  f18 0.2766778 1.1607023    0.20911823
+8   f2 0.5458528 0.9231597    0.13998907
+9   f3 0.6156569 0.8573410    0.13961920
+10  f4 0.4484464 1.5193870    0.12538351
+11  f5 0.4848132 0.9243436    0.13094858
+12  f6 0.5115916 0.9483366    0.13487475
+13  f7 0.5982780 0.8910479    0.13789196
+14  f8 0.8036434 0.6408281    0.13639156
+15  f9 0.4979415 0.9363571    0.14462237
+Processed Kordat (prockordat):
+ [1] Intercept     Slope         ICerror       SLerror       r.squared    
+ [6] adj.r.squared RMSD          MAD           b             f            
+[11] Average      
+<0 rows> (or 0-length row.names)
+Warning: prockordat not found or is empty. Skipping filtering by factor level.
+Scatter plot saved as 'scatter.svg'.
+Boxplot saved as 'boxplot.svg'.
+Script execution completed.
